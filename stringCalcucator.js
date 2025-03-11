@@ -15,7 +15,6 @@ function stringCalcucator(str) {
             return parseInt(value, 10);
         }
     }).filter((value) => value !== undefined);
-    console.log("intArr", intArr);
     const negatives = intArr.filter((value) => value < 0);
     if (negatives?.length) {
         return `negative numbers not allowed ${negatives?.join(",")}`
