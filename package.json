@@ -1,0 +1,23 @@
+{
+  "name": "string-calculator-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipremalk/string-calculator-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipremalk/string-calculator-tdd/issues"
+  },
+  "homepage": "https://github.com/ipremalk/string-calculator-tdd#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
