@@ -1,5 +1,5 @@
 const stringCalculator = require("./stringCalcucator");
 
-test("Addition of 1 and 2 should be 3", () => {
-    expect(stringCalculator(1, 2)).toBe(3);
+test("Addition of string '1,2,3' should be 6", () => {
+    expect(stringCalculator("1,2,3")).toBe(6);
 });
